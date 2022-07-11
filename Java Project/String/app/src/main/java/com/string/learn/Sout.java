@@ -9,6 +9,20 @@ public class Sout
    for (String i : s)
     System.out.print(s);
   }
+  public static void sout(StringBuilder s){
+    System.out.print(s);
+  }
+  public static void sout(StringBuilder[] s){
+   for (StringBuilder i : s)
+    System.out.print(s);
+  }
+  public static void sout(StringBuffer s){
+    System.out.print(s);
+  }
+  public static void sout(StringBuffer[] s){
+   for (StringBuffer i : s)
+    System.out.print(s);
+  }
   public static void sout(int s){
     System.out.print(s);
   }
@@ -42,6 +56,13 @@ public class Sout
   }
   public static void sout(long[] s){
    for (long i : s)
+    System.out.print(s);
+  }
+  public static void sout(boolean s){
+    System.out.print(s);
+  }
+  public static void sout(boolean[] s){
+   for (boolean i : s)
     System.out.print(s);
   }
   public static void sout(){
