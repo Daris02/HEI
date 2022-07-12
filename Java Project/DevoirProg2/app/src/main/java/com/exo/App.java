@@ -28,6 +28,19 @@ public class App {
    System.out.println(line2.toString());
    System.out.println(line3.toString());
    
-   
+   Customer cust1 = new Customer("Koto", "Rado", 0345555505, "rakoto@gmail.com", new Date() , "rado@e-mail.com");
+        Account compt1 = new Account(1, cust1);
+
+        Customer cust2 = new Customer("Toky", "Ando", 0345553305, "toky@gmail.com", new Date() , "ando@e-mail.com");
+        Account compt2 = new Account(2, cust2);
+
+        compt1.credit(500);
+        System.out.println(compt1.toString());
+        System.out.println(compt2.toString());
+        System.out.println("After transfert : ");
+        compt1.transferToAcount(compt2, 250);
+        System.out.println(compt1.toString());
+        System.out.println(compt2.toString());
+    
   }
 }
