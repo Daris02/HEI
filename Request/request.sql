@@ -1,7 +1,8 @@
 -- Liste / nombre réservation faite sur place en un mois :
 SELECT * FROM reservation
 WHERE en_ligne = false 
-AND date_reservarion = make_interval(months <= 1) ;
+AND date_reservarion = make_interval(months <= 1) ; 
+
 
 -- Liste dépense voyage faite par un chauffeur en un mois :
 SELECT depense_regulier, nom_chauffeur FROM voyage v LEFT JOIN chauffeur c 

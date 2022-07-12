@@ -9,7 +9,7 @@ public class Main
     String h = "hello";
     String v = "world";
     
-    sout(h.concat(v));
+    
     
    /* sout(h+"\n"+h.trim());
     sout();
@@ -44,6 +44,7 @@ public class Main
     sBf.insert(5, "Desc ");
     sout(sBf);
     */
+    
   }
   
   

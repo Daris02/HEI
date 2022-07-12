@@ -1,4 +1,5 @@
 package com.exo;
+
 public class Account {
     private int idAccount;
     private Customer owner;
