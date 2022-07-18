@@ -46,6 +46,8 @@ ON c.id_chauffeur = v.id_chauffeur
 WHERE date_depart BETWEEN make_interval(months <= 1) AND current_date ;
 
 -- Afficher les places libre pour un voyage donné : MEDIUM/HARD 10
+SELECT 
+
 
 -- Afficher toutes les places des passager d'un voyage : MEDIUM 10
 
