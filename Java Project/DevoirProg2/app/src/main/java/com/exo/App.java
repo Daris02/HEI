@@ -11,6 +11,7 @@ public class App {
 
   public static void main(String[] args) 
   {
+  /*
    Employee emp1 = new Employee();
    Employee emp2 = new Employee(1, "Erik", "Hill", 2000);
    
@@ -45,6 +46,10 @@ public class App {
         compt1.transferToAcount(compt2, 250);
         System.out.println(compt1.toString());
         System.out.println(compt2.toString());
+    */
+    
+    
+    
     
   }
 }
