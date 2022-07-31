@@ -1,9 +1,9 @@
 package com.exo;
 
 public class Account {
-    private int idAccount;
-    private Customer owner;
-    private double balance;
+    protected int idAccount;
+    protected Customer owner;
+    protected double balance;
 
     public Account(int idAccount, Customer owner){
         this.idAccount = idAccount;
@@ -12,44 +12,25 @@ public class Account {
     }
 
     //Getter & Setter
-    /**
-     * @return int return the idAccount
-     */
     public int getIdAccount() {
         return idAccount;
     }
-
-    /**
-     * @param idAccount the idAccount to set
-     */
     public void setIdAccount(int idAccount) {
         this.idAccount = idAccount;
     }
 
-    /**
-     * @return Customer return the owner
-     */
     public Customer getOwner() {
         return owner;
     }
 
-    /**
-     * @param owner the owner to set
-     */
     public void setOwner(Customer owner) {
         this.owner = owner;
     }
 
-    /**
-     * @return double return the balance
-     */
     public double getBalance() {
         return balance;
     }
 
-    /**
-     * @param balance the balance to set
-     */
     public void setBalance(double balance) {
         this.balance = balance;
     }

@@ -3,7 +3,7 @@ package com.exo;
 public class Employee 
 {
   //Attribute with Getter and Setter
-  private int id;
+  private static int id = 0;
   public int getId(){ return this.id; }
   public void setId(int Id){ this.id = Id; }
   
@@ -20,17 +20,17 @@ public class Employee
   public void setSalary(double Salary){ this.salary = Salary; }
   
   //Constructor
-  public Employee(int id, String lastName, String firstName, double salary){
-    this.id = id;
+  public Employee(String lastName, String firstName, double salary){
+    id++;
     this.lastName = lastName;
     this.firstName = firstName;
     this.salary = salary;
   }
   
   public Employee(){
-    this.id = id;
-    this.lastName = "inconnu" ;
-    this.firstName = "inconnu" ;
+    id++;
+    this.lastName = "inconnu";
+    this.firstName = "inconnu";
     this.salary = 0;
   }
   
@@ -45,7 +45,5 @@ public class Employee
    {
      return "Employee : \n" + "id : " + id + ",\nlastName : " + lastName + ", \nfirstName : " + firstName + ",\nsalary : " + salary +" Ar" ;
    }
-  
-  
   
 }

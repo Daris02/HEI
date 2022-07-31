@@ -11,15 +11,15 @@ public class App {
 
   public static void main(String[] args) 
   {
-  /*
+  
    Employee emp1 = new Employee();
-   Employee emp2 = new Employee(1, "Erik", "Hill", 2000);
+   Employee emp2 = new Employee("Erik", "Hill", 2000);
    
    
    System.out.println(emp1.toString());
    System.out.println();
    System.out.println(emp2.toString()+"\n");
-   
+   /*
    // Ne fonctionne pas correctement :
    emp2.setSalary(emp2.raise(25));
    
